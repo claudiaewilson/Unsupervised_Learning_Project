@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 
-![](https://github.com/claudaewilson/Unsupervised_Learning_Project/blob/main/anime_1.png)
+![](https://github.com/claudiaewilson/Unsupervised_Learning_Project/blob/main/anime_1.png)
 
 ## Table of contents
 * [1. Project Overview](#project-description)
