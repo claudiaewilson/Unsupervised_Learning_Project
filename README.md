@@ -28,30 +28,29 @@ This dataset contains information on anime content (movies, television series, m
 *OVA: Original Video Animation - anime film / series made for release in home-video formats, ONA: Original Net Animation is an anime that is directly released onto the Internet.
 
 **Supplied files:**
-anime.csv: This file contains information about the anime content, including aspects such as the id, name, genre, type, number of episodes (if applicable), an average rating based on views, and the number of members in the anime 'group'.
-train.csv:This file contains rating data, supplied by individual users for individual anime titles. It contains user_id information, the anime_id of the title watched, and the rating given (if applicable).
-test.csv: This file will be used to create the final submission. It contains a user_id and an anime_id column only - no rating (that's your task!). These ids will be used to create the rating predictions.
-submission.csv:This file is for illustrative purposes only, showing the submission format for the final predictions.
+* anime.csv: This file contains information about the anime content, including aspects such as the id, name, genre, type, number of episodes (if applicable), an average rating based on views, and the number of members in the anime 'group'.
+* train.csv:This file contains rating data, supplied by individual users for individual anime titles. It contains user_id information, the anime_id of the title watched, and the rating given (if applicable).
+* test.csv: This file will be used to create the final submission. It contains a user_id and an anime_id column only - no rating (that's your task!). These ids will be used to create the rating predictions.
 
 **Detailed file description:**
 
 **Anime.csv**
-anime_id - myanimelist.net's unique id identifying an anime.
-name - full name of anime.
-genre - comma-separated list of genres for this anime.
-type - movie, TV, OVA, etc.
-episodes - the number of episodes in the series. (1 if movie).
-rating - average rating out of 10 for this anime.
-members - number of community members that are in this anime's "group".
+* anime_id - myanimelist.net's unique id identifying an anime.
+* name - full name of anime.
+* genre - comma-separated list of genres for this anime.
+* type - movie, TV, OVA, etc.
+* episodes - the number of episodes in the series. (1 if movie).
+* rating - average rating out of 10 for this anime.
+* members - number of community members that are in this anime's "group".
 
 **train.csv**
-user_id - non-identifiable randomly generated user id.
-anime_id - the anime that this user has rated.
-rating - rating out of 10 this user has assigned (-1 if the user watched it but didn't assign a rating).
+* user_id - non-identifiable randomly generated user id.
+* anime_id - the anime that this user has rated.
+* rating - rating out of 10 this user has assigned (-1 if the user watched it but didn't assign a rating).
 
 **test.csv**
-user_id - non-identifiable randomly generated user id.
-anime_id - the anime that this user has rated.
+* user_id - non-identifiable randomly generated user id.
+* anime_id - the anime that this user has rated.
 
 ## 3. Packages <a class="anchor" id="packages"></a>
 
