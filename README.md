@@ -2,9 +2,7 @@
 
 ![](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 
-<div id="main image" align="center">
-  <img src="https://github.com/claudaewilson/Unsupervised_Learning_Project/blob/main/anime_1.png" width="450" height="300" alt=""/>
-</div>
+![](https://github.com/claudaewilson/Unsupervised_Learning_Project/blob/main/anime_1.png)
 
 ## Table of contents
 * [1. Project Overview](#project-description)
@@ -22,9 +20,7 @@ Well, you are about to find out! In this project, we require you to use all your
 
 The dataset consists of thousands of users and thousands of anime titles, gathered from myanimelist.net.
 
-<div id="main image" align="center">
-  <img src="https://github.com/claudaewilson/Unsupervised_Learning_Project/blob/main/anime_2.png" width="450" height="300" alt=""/>
-</div>
+![](https://github.com/claudaewilson/Unsupervised_Learning_Project/blob/main/anime_2.png)
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
 This dataset contains information on anime content (movies, television series, music, specials, OVA, and ONA*), split between a file related to the titles (anime.csv) and one related to user ratings of the titles (training.csv). The test.csv file will be used to create the rating predictions and must be submitted for grading. The submissions.csv file illustrates the expected format of submissions.
